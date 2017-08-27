@@ -1,0 +1,166 @@
+body{
+  font-family: Exo, sans-serif;
+}
+/*-----------------Gereral rules-------------*/
+.head-content{
+  h2{
+    text-align: center;
+  }
+}
+.underline:after{
+    content: ' ';
+    display: block;
+    width: 60px;
+    height: 7px;
+    background:#8E282F;
+    margin:30px auto;     
+}
+.active{
+  opacity: 1;
+  transition: ease-in-out 1s;
+}
+
+
+section{
+  margin-bottom: 50px;
+}
+/*------------------HEADER--------------*/
+#header{
+  margin-bottom: 70px;
+}
+.nav{
+  a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top:20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .btn-search{
+    
+  }
+}
+
+/*------------------HORSE--------------*/
+#horse{
+  background-image: url(../../images/heroarea.png);
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+.horse-content{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 70px;
+    color:#fff;
+    h2{
+      
+      font-size:72px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+    p{
+      margin-top:50px;
+      margin-bottom: 70px;
+    }
+    button{
+      padding: 16px 80px;
+      border-radius:0;
+    }
+}
+
+/*------------------Services--------------*/
+.service-item{
+  text-align: center;
+  padding: 30px 15px;
+  border: 5px solid #8E282F;
+  span{
+    font-size: 40px;
+    color:#8E282F;
+    display: block;
+    margin-bottom: 25px;
+  }
+  h3{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  p{
+    font-size: 13px;
+  }
+}
+
+/*------------------BLOG--------------*/
+#blog{
+  background: #d4d4d4;
+  padding: 50px 0;
+}
+.blogs{
+  h2{
+    text-align: center;
+  }
+  .blog{
+    img{
+      width: 100%;
+      height: auto;
+      margin-bottom: 40px;
+    }
+    h3{
+      font-weight:900;
+      font-size: 28px;
+      margin-bottom: 15px;
+      margin-top:15px;
+    }
+    span{
+      margin-left: 10px;
+    }
+    a:not(:first-child):before{
+      content:'';
+      height:13px;
+      width: 2px;
+      display: inline-block;
+      background: #333;
+      margin:2px;
+      margin-bottom: -3px;
+    }
+  }
+}
+
+/*------------------Team----------------*/
+#Team{
+  padding: 30px 0;
+}
+.member{
+  position: relative;
+    img{
+      width: 100%;
+      height: auto;
+    }
+    .name{
+      position: absolute;
+      text-align: center;
+      top:50%;
+      left: 42%;
+      color: #fff;
+      margin-top:-15%;
+    }
+  .descripsion{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 10px 7px;
+    z-index: 2;
+    background: red;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  &:hover{
+    .descripsion{
+      opacity: 1;
+    }
+  }
+}

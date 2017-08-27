@@ -1,0 +1,255 @@
+@font-face{
+  font-family: Exo;
+  font-style: italic;
+  font-weight: 100;
+  src: local("Exo Thin Italic"),local(Exo-ThinItalic),url(//fonts.gstatic.com/s/exo/v4/ogJI9GcDrrdUNfxuCUzX2A.eot?#) format("eot"),url(//fonts.gstatic.com/s/exo/v4/0FowQzHsbSUXYXQSNXDxZQ.woff2) format("woff2"),url(//fonts.gstatic.com/s/exo/v4/-KJ68G4vOQ0iT-Z_CUBd8g.woff) format("woff");
+}
+@font-face{
+  font-family: Exo;
+  font-style: italic;
+  font-weight: 200;
+  src: local("Exo ExtraLight Italic"),local(Exo-ExtraLightItalic),url(//fonts.gstatic.com/s/exo/v4/bPaOoFN460bwbLDC1739p_esZW2xOQ-xsNqO47m55DA.eot?#) format("eot"),url(//fonts.gstatic.com/s/exo/v4/ksgOZSvBz0KxrfGBw7dPafesZW2xOQ-xsNqO47m55DA.woff2) format("woff2"),url(//fonts.gstatic.com/s/exo/v4/nNEH4yXWO5IRvRnrB8N0o_esZW2xOQ-xsNqO47m55DA.woff) format("woff");
+}
+@font-face{
+  font-family: Exo;
+  font-style: italic;
+  font-weight: 300;
+  src: local("Exo Light Italic"),local(Exo-LightItalic),url(//fonts.gstatic.com/s/exo/v4/9Eh3TQAsmD4fal8OOPuTa_esZW2xOQ-xsNqO47m55DA.eot?#) format("eot"),url(//fonts.gstatic.com/s/exo/v4/03NQSoZ7CsKvmGnpKsEEM_esZW2xOQ-xsNqO47m55DA.woff2) format("woff2"),url(//fonts.gstatic.com/s/exo/v4/MvuC31KewP-QFsxbMzfMJfesZW2xOQ-xsNqO47m55DA.woff) format("woff");
+}
+@font-face{
+  font-family: Exo;
+  font-style: italic;
+  font-weight: 400;
+  src: local("Exo Italic"),local(Exo-Italic),url(//fonts.gstatic.com/s/exo/v4/j5-A0SDRUMMsVNSIuqr_tg.eot?#) format("eot"),url(//fonts.gstatic.com/s/exo/v4/OYgAYULBTKMJJUVQZpJ1ug.woff2) format("woff2"),url(//fonts.gstatic.com/s/exo/v4/SrRPhC0khZfK-pbowUGBAw.woff) format("woff");
+}
+@font-face{
+  font-family: Exo;
+  font-style: italic;
+  font-weight: 500;
+  src: local("Exo Medium Italic"),local(Exo-MediumItalic),url(//fonts.gstatic.com/s/exo/v4/iV35VkJ8WH4-QDb34ffvQPesZW2xOQ-xsNqO47m55DA.eot?#) format("eot"),url(//fonts.gstatic.com/s/exo/v4/gt2C348WKP6Tg5YiMi0znPesZW2xOQ-xsNqO47m55DA.woff2) format("woff2"),url(//fonts.gstatic.com/s/exo/v4/1LnzhM6dYPICwfoM9MfuCvesZW2xOQ-xsNqO47m55DA.woff) format("woff");
+}
+@font-face{
+  font-family: Exo;
+  font-style: italic;
+  font-weight: 600;
+  src: local("Exo DemiBold Italic"),local(Exo-DemiBoldItalic),url(//fonts.gstatic.com/s/exo/v4/MoN1T7I1tnJv0ZaLPHngrPesZW2xOQ-xsNqO47m55DA.eot?#) format("eot"),url(//fonts.gstatic.com/s/exo/v4/cvUEH30wvJ41QjMDDF8gS_esZW2xOQ-xsNqO47m55DA.woff2) format("woff2"),url(//fonts.gstatic.com/s/exo/v4/cS7UYuQb9nyqGPgy45MPV_esZW2xOQ-xsNqO47m55DA.woff) format("woff");
+}
+@font-face{
+  font-family: Exo;
+  font-style: italic;
+  font-weight: 700;
+  src: local("Exo Bold Italic"),local(Exo-BoldItalic),url(//fonts.gstatic.com/s/exo/v4/w1T345y6R264yP2x7dODNfesZW2xOQ-xsNqO47m55DA.eot?#) format("eot"),url(//fonts.gstatic.com/s/exo/v4/RUd6U3c1BMbwtyTv2U6XJfesZW2xOQ-xsNqO47m55DA.woff2) format("woff2"),url(//fonts.gstatic.com/s/exo/v4/ENjw15vOU74UM6LyiOhPTvesZW2xOQ-xsNqO47m55DA.woff) format("woff");
+}
+@font-face{
+  font-family: Exo;
+  font-style: italic;
+  font-weight: 800;
+  src: local("Exo ExtraBold Italic"),local(Exo-ExtraBoldItalic),url(//fonts.gstatic.com/s/exo/v4/iB-Gkexg6ZMds7bgbjLbGvesZW2xOQ-xsNqO47m55DA.eot?#) format("eot"),url(//fonts.gstatic.com/s/exo/v4/VOUNauBNZHRPXwo-B101VvesZW2xOQ-xsNqO47m55DA.woff2) format("woff2"),url(//fonts.gstatic.com/s/exo/v4/OxHvdhxScdJBgJvW3f2di_esZW2xOQ-xsNqO47m55DA.woff) format("woff");
+}
+@font-face{
+  font-family: Exo;
+  font-style: italic;
+  font-weight: 900;
+  src: local("Exo Black Italic"),local(Exo-BlackItalic),url(//fonts.gstatic.com/s/exo/v4/R_-He4veb-vmLJRHMeMXKfesZW2xOQ-xsNqO47m55DA.eot?#) format("eot"),url(//fonts.gstatic.com/s/exo/v4/Js4AswrKxFUW89UW03LfJvesZW2xOQ-xsNqO47m55DA.woff2) format("woff2"),url(//fonts.gstatic.com/s/exo/v4/3cavH_EZOAWIiny3PJAOYfesZW2xOQ-xsNqO47m55DA.woff) format("woff");
+}
+@font-face{
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 100;
+  src: local("Exo Thin"),local(Exo-Thin),url(//fonts.gstatic.com/s/exo/v4/VOjseMs0W_ksoG9OL6sjpQ.eot?#) format("eot"),url(//fonts.gstatic.com/s/exo/v4/bSEuBfAK9i16rKak_EdKNA.woff2) format("woff2"),url(//fonts.gstatic.com/s/exo/v4/qyfp0OSqk7TET2opvcMBmw.woff) format("woff");
+}
+@font-face{
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 200;
+  src: local("Exo ExtraLight"),local(Exo-ExtraLight),url(//fonts.gstatic.com/s/exo/v4/6qQWt5DRe819A_OLSfea_g.eot?#) format("eot"),url(//fonts.gstatic.com/s/exo/v4/lA-XzkxvFbAS7qSN5Rm7dw.woff2) format("woff2"),url(//fonts.gstatic.com/s/exo/v4/z1hPnoJcXaXYata_d2utlw.woff) format("woff");
+}
+@font-face{
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Exo Light"),local(Exo-Light),url(//fonts.gstatic.com/s/exo/v4/f7h3uM6Fc-o-wzyP4yY8ew.eot?#) format("eot"),url(//fonts.gstatic.com/s/exo/v4/941bfrYtYbqlIetUPXD4ww.woff2) format("woff2"),url(//fonts.gstatic.com/s/exo/v4/q_s1igR8FunFvLlUJksouQ.woff) format("woff");
+}
+@font-face{
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Exo Regular"),local(Exo-Regular),url(//fonts.gstatic.com/s/exo/v4/dyHAhrKQv_y08D_BHFQ0zA.eot?#) format("eot"),url(//fonts.gstatic.com/s/exo/v4/kA_pX0U45Eb7PbHijV1x2w.woff2) format("woff2"),url(//fonts.gstatic.com/s/exo/v4/wocyXRLWPo2Av-yUTmmbTA.woff) format("woff");
+}
+@font-face{
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 500;
+  src: local("Exo Medium"),local(Exo-Medium),url(//fonts.gstatic.com/s/exo/v4/8rLK3CifJ3ocszySMSwoLA.eot?#) format("eot"),url(//fonts.gstatic.com/s/exo/v4/cfsS7mtf7BxCwNsl8jG12A.woff2) format("woff2"),url(//fonts.gstatic.com/s/exo/v4/yLVQVmQgTSUkafMu4HoVJA.woff) format("woff");
+}
+@font-face{
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 600;
+  src: local("Exo DemiBold"),local(Exo-DemiBold),url(//fonts.gstatic.com/s/exo/v4/U0OOWpwWYfUE8Sb7dldpuQ.eot?#) format("eot"),url(//fonts.gstatic.com/s/exo/v4/7elr158u735yPgzh9pDCKA.woff2) format("woff2"),url(//fonts.gstatic.com/s/exo/v4/yQnHD5L8a9aDb09o13m_pg.woff) format("woff");
+}
+@font-face{
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Exo Bold"),local(Exo-Bold),url(//fonts.gstatic.com/s/exo/v4/OqFmJmsFlYjHnwejpSKkeA.eot?#) format("eot"),url(//fonts.gstatic.com/s/exo/v4/brV063mXxrmTeVdLP9P6Kw.woff2) format("woff2"),url(//fonts.gstatic.com/s/exo/v4/RokIQ-knd7LT9uhmuUjL2g.woff) format("woff");
+}
+@font-face{
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 800;
+  src: local("Exo ExtraBold"),local(Exo-ExtraBold),url(//fonts.gstatic.com/s/exo/v4/_0lZ4rpzKoEeSwD2vr3bzw.eot?#) format("eot"),url(//fonts.gstatic.com/s/exo/v4/bxee2kBKNXMDa_dqwEq7Bg.woff2) format("woff2"),url(//fonts.gstatic.com/s/exo/v4/JZqdj-HRS4iJsSlrSwRCxA.woff) format("woff");
+}
+@font-face{
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 900;
+  src: local("Exo Black"),local(Exo-Black),url(//fonts.gstatic.com/s/exo/v4/Z_9mpTFG4gyBbpuwvgPjcA.eot?#) format("eot"),url(//fonts.gstatic.com/s/exo/v4/zss5QirmJkYz6dW5juecsA.woff2) format("woff2"),url(//fonts.gstatic.com/s/exo/v4/vUUX2FySly3npcleKTbosw.woff) format("woff");
+}
+body{
+  font-family: Exo, sans-serif;
+}
+/*-----------------Gereral rules-------------*/
+.head-content h2{
+  text-align: center;
+}
+.underline:after{
+    content: ' ';
+    display: block;
+    width: 60px;
+    height: 7px;
+    background:#8E282F;
+    margin:30px auto;     
+}
+.active{
+  opacity: 1;
+  transition: ease-in-out 1s;
+}
+section{
+  margin-bottom: 50px;
+}
+/*------------------HEADER--------------*/
+#header{
+  margin-bottom: 70px;
+}
+.nav a{
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top:20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+.nav .btn-search{}
+/*------------------HORSE--------------*/
+#horse{
+  background-image: url(../../images/heroarea.png);
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+.horse-content{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 70px;
+    color:#fff;
+}
+.horse-content h2{
+  font-size:72px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.horse-content p{
+  margin-top:50px;
+  margin-bottom: 70px;
+}
+.horse-content button{
+  padding: 16px 80px;
+  border-radius:0;
+}
+/*------------------Services--------------*/
+.service-item{
+  text-align: center;
+  padding: 30px 15px;
+  border: 5px solid #8E282F;
+}
+.service-item span{
+  font-size: 40px;
+  color:#8E282F;
+  display: block;
+  margin-bottom: 25px;
+}
+.service-item h3{
+  font-size: 16px;
+  font-weight: bold;
+}
+.service-item p{
+  font-size: 13px;
+}
+/*------------------BLOG--------------*/
+#blog{
+  background: #d4d4d4;
+  padding: 50px 0;
+}
+.blogs h2{
+  text-align: center;
+}
+.blogs .blog img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+.blogs .blog h3{
+  font-weight:900;
+  font-size: 28px;
+  margin-bottom: 15px;
+  margin-top:15px;
+}
+.blogs .blog span{
+  margin-left: 10px;
+}
+.blogs .blog a:not(:first-child):before{
+  content:'';
+  height:13px;
+  width: 2px;
+  display: inline-block;
+  background: #333;
+  margin:2px;
+  margin-bottom: -3px;
+}
+/*------------------Team----------------*/
+#Team{
+  padding: 30px 0;
+}
+.member{
+  position: relative;
+}
+.member img{
+  width: 100%;
+  height: auto;
+}
+.member .name{
+  position: absolute;
+  text-align: center;
+  top:50%;
+  left: 42%;
+  color: #fff;
+  margin-top:-15%;
+}
+.member .descripsion{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 10px 7px;
+  z-index: 2;
+  background: red;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.member:hover .descripsion{
+  opacity: 1;
+}
