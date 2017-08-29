@@ -13,7 +13,7 @@ body{
     width: 60px;
     height: 7px;
     background:#8E282F;
-    margin:30px auto;     
+    margin:30px auto; 
 }
 .active{
   opacity: 1;
@@ -50,6 +50,7 @@ section{
   background-attachment: fixed;
   width: 100%;
   height: 100vh;
+  overflow: hidden;
 }
 .horse-content{
     text-align: center;
@@ -58,10 +59,10 @@ section{
     color:#fff;
     h2{
       
-      font-size:72px;
+      font-size:32px;
       font-weight: bold;
       text-transform: uppercase;
-      margin-bottom: 30px;
+      margin-bottom: 15px;
     }
     p{
       margin-top:50px;
@@ -78,6 +79,7 @@ section{
   text-align: center;
   padding: 30px 15px;
   border: 5px solid #8E282F;
+  margin-bottom: 10px;
   span{
     font-size: 40px;
     color:#8E282F;
@@ -99,14 +101,41 @@ section{
   padding: 50px 0;
 }
 .blogs{
+  
   h2{
     text-align: center;
   }
   .blog{
+    margin-bottom: 20px;
+    position: relative;
     img{
       width: 100%;
       height: auto;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
+      transition: ease-in-out 1s;
+      backface-visibility: hidden;
+      
+    }
+    .img-blog{
+      position: relative;
+      z-index: 2;
+    }
+    .world{
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      width: 350px;
+      height: 239px;
+      margin-left: 15px;
+      padding-top:20%;
+      background: #000;
+      text-align: center;
+      color: #fff;
+      backface-visibility: hidden;
+      transform: rotateY(180deg);
+      transition: ease-in-out 1s;
+      
     }
     h3{
       font-weight:900;
@@ -127,6 +156,14 @@ section{
       margin-bottom: -3px;
     }
   }
+  .img-blog:hover{
+        img{
+          transform: rotateY(180deg);
+        }
+        .world{
+          transform: rotateY(360deg);
+        }
+      }
 }
 
 /*------------------Team----------------*/
@@ -135,6 +172,7 @@ section{
 }
 .member{
   position: relative;
+  margin-bottom: 12px;
     img{
       width: 100%;
       height: auto;
@@ -161,6 +199,109 @@ section{
   &:hover{
     .descripsion{
       opacity: 1;
+    }
+  }
+}
+
+/*------------------Work----------------*/
+
+.library{
+  list-style: none;
+  li{
+    display: inline-block;
+    width: 45%;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    figure{
+      position: relative;
+      img{
+        width: 100%;
+        height: auto;
+        
+      }
+      &:before{
+        content: '';
+        position: absolute;
+        left: -50%;
+        height: 100%;
+        width: 10%;
+        background: linear-gradient(#000,#fff);
+        transform: skew(-35deg);
+        
+      }
+    }
+  }
+}
+
+/*------------------MAIN-FOOTER----------------*/
+#main-footer{
+  background: #333;
+  padding: 40px;
+}
+.footer-content{
+  padding: 10px 20px;
+  border-bottom: 5px solid #fff;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.footer-logo{
+  position: relative;
+  text-align: left;
+  .circle{
+    content: ' ';
+    
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    margin-right:10px;
+  }
+  a{
+    position: absolute;
+    font-size: 35px;
+    padding-bottom: 10px;
+    span{
+      font-weight: bold;
+    }
+  }
+}
+.footer-2{
+  .input-footer{
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 5px;
+    border: 3px solid #000;
+  }
+}
+
+
+/*------------------Responsive----------------*/
+@media(min-width:500px){
+  .footer-content{
+    padding: 10px 20px;
+    border-right: 5px solid #fff;
+    border-bottom: transparent;
+  }
+  .library{
+    li{
+      width: 31%;
+    }
+  }
+}
+
+
+@media(min-width:768px){
+  .library{
+    li{
+      width: 23%;
+    }
+  }
+  .horse-content{
+    h2{
+      font-size: 72px;
+      margin-bottom: 30px;
     }
   }
 }

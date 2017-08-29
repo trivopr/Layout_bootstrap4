@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> New Layout 2 </title>
     <link rel="stylesheet" href="assets/css/normalize.css">
@@ -14,32 +14,41 @@
 
 <body>
     <header id="header">
-        <nav class="navbar navbar-dark bg-dark fixed-top">     
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                 
                 <a href="#" class="navbar-brand">
                     <img src="images/logo.png" alt="This is Logo">
                     You<span>Need</span>
                 </a>     
-                <ul class="nav justify-content-end">
-                    <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#Service">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#Blog">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#Team">Team</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#Work">Work</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#Link">External Link</a></li>
-                    <li class="nav-item">
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+                    
+                    
+                    
+                </button>    
+                <ul class="navbar-nav navbar-collapse collapse justify-content-end" id="main-menu">
+                    <li class="active"><a class="nav-link" href="#home">Home</a></li>
+                    <li class=""><a class="nav-link" href="#Service">Services</a></li>
+                    <li class=""><a class="nav-link" href="#Blog">Blog</a></li>
+                    <li class=""><a class="nav-link" href="#Team">Team</a></li>
+                    <li class=""><a class="nav-link" href="#Work">Work</a></li>
+                    <li class=""><a class="nav-link" href="#Contact">Contact</a></li>
+                    <li class=""><a class="nav-link" href="#Link">External Link</a></li>
+                    <li class="">
                         <form action="#" class="navbar-form form-inline">
                            
                             <button class="btn btn-outline-success my-2 my-sm-0 btn-search" type="submit">Search</button>
                         </form>
                     </li>
                 </ul>
-    
+               
         </nav><!--navbar-->
     </header><!--header-->
 
 
-    <section id="horse">
+    <section id="horse" data-speed="4">
         <div class="container">
             <div class="row">
                 <div class="col-md-9 horse-content">
@@ -56,7 +65,7 @@
     <section id="services">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <div class="service-item">
                         <div class="head-service underline">
                             <span class="fa fa-apple"></span>
@@ -67,7 +76,7 @@
                 </div>
 
 
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <div class="service-item">
                         <div class="head-service underline">
                             <span class="fa fa-globe"></span>
@@ -78,7 +87,7 @@
                 </div>
 
 
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <div class="service-item">
                         <div class="head-service underline">
                             <span class="fa fa-archive"></span>
@@ -98,8 +107,12 @@
                 <h2 class="underline">From The Blog</h2>
             </div>
             <div class="row blogs">
-                <div class="col-sm-4 blog">
-                    <img src="images/post.png" alt="#error">
+                <div class="col-md-4 blog">
+                    <div class="img-blog">
+                        <img src="images/post.png" alt="#error">
+                    
+                        <div class="world"> Hello World </div>
+                    </div>
                     <div class="days">
                         <a href="#"> Web Design </a>
                         <a href="#"> Photoshop </a>
@@ -110,8 +123,12 @@
                     <button class="btn btn-outline-danger btn-lg"> Read More </button>
                 </div><!--end-col-->
 
-                <div class="col-sm-4 blog">
-                    <img src="images/post.png" alt="error">
+                <div class="col-md-4 blog">
+                    <div class="img-blog">
+                        <img src="images/post.png" alt="#error">
+                    
+                        <div class="world"> Hello World </div>
+                    </div>
                     <div>
                         <a href="#"> WordPress </a>
                         <span>  12-05-2017 </span>
@@ -121,8 +138,13 @@
                     <button class="btn btn-outline-danger btn-lg"> Read More </button>
                 </div><!--end-col-->
 
-                <div class="col-sm-4 blog">
-                    <img src="images/post.png" alt="#error">
+                <div class="col-md-4 blog">
+
+                    <div class="img-blog">
+                        <img src="images/post.png" alt="#error">
+                    
+                        <div class="world"> Hello World </div>
+                    </div>
                     <div class="days">
                         <a href="#"> Jquery </a>
                         
@@ -194,14 +216,68 @@
     </section><!--OurTeam-->
 
 
-    <section id="Contact">
+    <section id="Work">
         <div class="container">
+            <div class="head-content">
+                <h2 class="underline">Our Work</h2>
+            </div>
+            <div class="row">
+                <ul class="library">
+                    <li class="">
+                        <figure><img src="images/child.jpg" alt="#"></figure>
+                        
+                    </li>
+                    <li class="">
+                        <img src="images/post.png" alt="#">
+                        
+                    </li>
+                    <li class="">
+                        <img src="images/post.png" alt="">
 
-        </div>
+                    </li>
+                    <li class="">
+                        <img src="images/post.png" alt="#">
+                    
+                    </li>
+                    <li class="">
+                        <img src="images/child.jpg" alt="#">
+                    
+                    </li>
+                    <li class="">
+                        <img src="images/post.png" alt="#">
+
+                    </li>
+                    <li class="">
+                        <img src="images/child.jpg" alt="#">
+                    
+                    </li>
+                    <li class="">
+                        <img src="images/post.png" alt="#">                 
+                    </li>
+                </ul>
+            </div><!--row-->
+        </div><!--container-->
     </section><!--work-->
 
-    <footer>
+    <footer id="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 footer-content footer-logo">
+                    <div class="circle">
 
+                    </div><!--circle-->
+                    <a href="#">You<span>Need</span></a>
+                </div>
+                <div class="col-sm-4 footer-content footer-2">
+                    <input type="text" placeholder="Please Subscribe to our newletters" class="input-footer">
+                    <button class="btn btn-outline-success btn-lg"> Subscribe </button>
+                </div><!--end-col-->
+                <div class="col-sm-4 footer-content">
+                    <p style="color:#fff">&copy;2017 BY FREETHEMESZONE.COM</p>
+                    <a href="#"><small>Free HTML Template By Freethemeszone.com</small></a>
+                </div><!--end-col-->
+            </div>
+        </div><!--container-->
     </footer>
     
     <script src="assets/js/jquery-2.1.4.min.js"></script>
