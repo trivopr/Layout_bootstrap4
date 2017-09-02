@@ -303,8 +303,33 @@ section{
   margin-bottom: 10px;
   margin-right: 5px;
 }
+.library li figure:hover:before{
+  -webkit-animation-name: tri;
+          animation-name: tri;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+.library li figure:hover:after{
+  -webkit-animation-name: tri1;
+          animation-name: tri1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+}
+.library li figure:after{
+  content: '';
+  position: absolute;
+  right: -30%;
+  height: 100%;
+  width: 10%;
+  background: linear-gradient(to left,transparent,#fff);
+}
 .library li figure{
   position: relative;
+  overflow: hidden;
 }
 .library li figure img{
   width: 100%;
@@ -313,12 +338,18 @@ section{
 .library li figure:before{
   content: '';
   position: absolute;
-  left: -50%;
+  left: -30%;
   height: 100%;
   width: 10%;
-  background: linear-gradient(#000,#fff);
-  -webkit-transform: skew(-35deg);
-          transform: skew(-35deg);
+  background: linear-gradient(to right,transparent,#fff);
+}
+@-webkit-keyframes tri {
+        0% {left:-10%;}
+        100% {left:120%;}
+      }
+@-webkit-keyframes tri1 {
+  0% {right:-10%;}
+  100% {right:120%;}
 }
 /*------------------MAIN-FOOTER----------------*/
 #main-footer{
