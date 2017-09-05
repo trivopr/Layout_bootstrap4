@@ -2,11 +2,122 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CONTACT PAGE</title>
+    <title> New Layout 2 </title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dest/styles/main.css">
 </head>
 <body>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam dolore quo pariatur voluptate illum. Dicta porro, dolorem voluptatem culpa perferendis tempora officia, at reiciendis, eos laudantium blanditiis nostrum ipsum sapiente!
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                 
+                <a href="#" class="navbar-brand">
+                    <img src="images/logo.png" alt="This is Logo">
+                    You<span>Need</span>
+                </a>     
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+                    
+                    
+                    
+                </button>    
+                <div class="collapse navbar-collapse justify-content-end " id="main-menu">
+                    <ul class="navbar-nav justify-content-end" >
+                        <li><a class="nav-link" href="index.html">Home</a></li>
+                        <li class=""><a class="nav-link" href="#Service">Services</a></li>
+                        <li class=""><a class="nav-link" href="#Blog">Blog</a></li>
+                        <li class=""><a class="nav-link" href="#Team">Team</a></li>
+                        <li class=""><a class="nav-link" href="#Work">Work</a></li>
+                        <li class="active" class=""><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class=""><a class="nav-link" href="#Link">External Link</a></li>
+                        <li class="">
+                            <form action="#" class="navbar-form form-inline">
+                            
+                                <button class="btn btn-outline-success my-2 my-sm-0 btn-search" type="submit">Search</button>
+                            </form>
+                        </li>
+                    </ul>
+               </div><!--end-main-menu-->
+        </nav><!--navbar-->
+    </header><!--header-->
+
+    <!--=====================Contact-Form=================-->
+    <div class="container">
+        <form id="contact-form" action="" class="contact-form">
+            <div class="form-row">
+                <div class="form-group col-sm-8">
+                    <h3>Contact Us</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit vel commodi necessitatibus reiciendis. Accusamus aliquid culpa qui porro, quo minus laboriosam itaque at quos. Nemo dolorem nostrum, molestiae alias? Totam?</p>
+                
+                    <div class="form-group col-sm-9 name">
+                        <label for="name">Your Name (required)</label>
+                        <input type="text" class="form-control" name="name">
+                    </div><!--end-col-->
+                    <div class="form-group col-sm-9 email">
+                        <label for="email">Your Email (Required)</label>
+                        <input type="email" class="form-control" name="email">
+                    </div><!--end-col-->
+                    <div class="form-group col-sm-9 subject">
+                        <label for="subject">SubJect (Required)</label>
+                        <input type="text" class="form-control" name="subject">
+                    </div><!--end-col-->
+                    <div class="form-group col-sm-9 message">
+                        <label for="message">Your Message </label>
+                        <textarea name="message" id="" cols="30" rows="10" class="form-control"></textarea>
+                    </div><!--end-col-->
+                    <div class="col-sm-5 submit-form">
+                        <button class="btn btn-primary btn-lg">Send</button>
+                    </div><!--end-col-->
+                </div><!--end-col-sm-8-->
+                <div class="form-group col-sm-4">
+                    <h6 class="text-danger">Email</h6>
+                    <p>minhtripr1605@gmail.com</p>
+                    <hr>
+                    <h6 class="text-danger">Phone</h6>
+                    <p>0166 4626 011</p>
+                    <hr>
+                    <h6 class="text-danger">On The Web</h6>
+                    <span> Priterest </span><span> Facebook </span><span> Twitter </span>
+                    <hr>
+                </div><!--end-col-->
+            </div><!--end-form-row-->
+        </form>
+    </div><!--container-->
+
+
+
+
+    <footer id="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 footer-content footer-logo">
+                    <div class="circle">
+
+                    </div><!--circle-->
+                    <a href="#">You<span>Need</span></a>
+                </div>
+                <div class="col-sm-4 footer-content footer-2">
+                    <input type="text" placeholder="Please Subscribe to our newletters" class="input-footer">
+                    <button class="btn btn-outline-success btn-lg"> Subscribe </button>
+                </div><!--end-col-->
+                <div class="col-sm-4 footer-content">
+                    <p style="color:#fff">&copy;2017 BY FREETHEMESZONE.COM</p>
+                    <a href="#"><small>Free HTML Template By Freethemeszone.com</small></a>
+                </div><!--end-col-->
+            </div>
+        </div><!--container-->
+    </footer>
+    <script src="assets/js/jquery-2.1.4.min.js"></script>
+    <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
