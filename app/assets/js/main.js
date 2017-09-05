@@ -19,4 +19,32 @@ $(document).ready(function(){
 
             })
         });
+        $('#contact-form').validate({
+            rules:{
+                name:{
+                    required:true,
+                    minlength:5,
+                },
+                email:{
+                    required:true,
+                    email:true,
+                },
+                subject:{
+                    required:true,
+                }
+            },
+            messages:{
+                name:{
+                    required:"Please Enter Your Name",
+                    minlength:"You Need Enter More 5 Characters",
+                },
+                email:{
+                    required:"Please Enter Your Email",
+                    email:"You Need Enter Type Email ",
+                },
+                subject:{
+                    required:"Please Enter Your Subject",
+                }
+            }
+        });
 });
