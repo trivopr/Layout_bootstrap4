@@ -59,7 +59,7 @@ section{
     color:#fff;
     h2{
       
-      font-size:32px;
+      font-size:32px;                     // SHOULD USE FONT SIZE: REM => 3.2 rem; tim hieu don vi rem
       font-weight: bold;
       text-transform: uppercase;
       margin-bottom: 15px;
@@ -81,7 +81,7 @@ section{
   border: 5px solid #8E282F;
   margin-bottom: 10px;
   span{
-    font-size: 40px;
+    font-size: 40px;                      // KHONG NEN SET FONT-SIZE TRUC TIEP VAO THE SPAN. VAO 1 CLASS CU THE
     color:#8E282F;
     display: block;
     margin-bottom: 25px;
@@ -96,7 +96,7 @@ section{
 }
 
 /*------------------BLOG--------------*/
-#blog{
+#blog{                                    // LIMIT USE ID
   background: #d4d4d4;
   padding: 50px 0;
 }
@@ -196,7 +196,7 @@ section{
     opacity: 0;
     transition: all 0.5s ease-in-out;
   }
-  &:hover{
+  &:hover{                                          // SAO KO LONG VO .description o tren
     .descripsion{
       opacity: 1;
     }
@@ -220,7 +220,7 @@ section{
         height: auto;
         
       }
-      &:before{
+      &:before{                       // BEFORE && AFTER GAN GIONG NHAU, NEN GOP CHUNG VO CHO GON CODE
         content: '';
         position: absolute;
         left: -30%;
@@ -285,11 +285,11 @@ section{
     background: #fff;
     margin-right:10px;
   }
-  a{
+  a{                                                          // KHONG DUOC GAN FONT-SIZE VAO THE HTML
     position: absolute;
     font-size: 35px;
     padding-bottom: 10px;
-    span{
+    span{                                                   
       font-weight: bold;
     }
   }
