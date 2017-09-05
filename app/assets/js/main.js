@@ -1,8 +1,9 @@
 $(document).ready(function(){
+        var $window=$(window);  // JUST DECLARE ONCE TIME HERE FOR GLOBAL VARIABLE
         $('section[data-type="background"]').each(function(){
             var $this=$(this);
-            var $window=$(window);
-            $window.scroll(function(){
+            var $window=$(window);      // update varibalbe
+            $window.scroll(function(){  // should use: $window.on('scroll', function() {...})
                 var y=-($window.scrollTop()/($this.data('speed')/2));
                 var position="100% "+y+"px";
                 $this.css({backgroundPosition:position});
@@ -10,10 +11,10 @@ $(document).ready(function(){
             });
         });
         $('#horse').each(function(){
-            var $window=$(window);
-            var $this=$(this);
+            var $window=$(window); //update varibalbe
+            var $this=$(this);  
             $window.scroll(function(){
-                var y=-($window.scrollTop()/($this.data('speed')/2));
+                var y=-($window.scrollTop()/($this.data('speed')/2));   // Should declare variable out of Each function, .scroll function
                 var position="100% "+y+"px";
                 $this.css({backgroundPosition:position});
 
